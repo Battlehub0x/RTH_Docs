@@ -14,6 +14,8 @@ Welcome to the [**Runtime Transform Handels v.4.4.1**](https://assetstore.unity.
 
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
+- [Runtime Transform Handles for Unity](#runtime-transform-handles-for-unity)
+- [Contents](#contents)
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Example Scenes](#example-scenes)
@@ -21,17 +23,30 @@ Welcome to the [**Runtime Transform Handels v.4.4.1**](https://assetstore.unity.
 - [HDRP Support](#hdrp-support)
 - [Expose To Editor](#expose-to-editor)
 - [Create Menu](#create-menu)
-- [Positon Handle](#position-handle)
-- [Rotation, Scale Handle](#rotation-scale-handle)
+- [Position Handle](#position-handle)
+- [Rotation, Scale Handle, Rect Tool](#rotation-scale-handle-rect-tool)
+- [Scene Grid](#scene-grid)
+- [Scene Gizmo](#scene-gizmo)
+- [Colors and Sizes](#colors-and-sizes)
+- [Scene Component](#scene-component)
+- [Select Which Camera the Scene Component Will Control](#select-which-camera-the-scene-component-will-control)
+- [Scene Component (No Camera Controls)](#scene-component-no-camera-controls)
+- [Select Current Transform Handle](#select-current-transform-handle)
+- [Runtime Undo](#runtime-undo)
 - [IOC](#ioc)
 - [Runtime Selection](#runtime-selection)
-	+ [Properties](#properties)
-	+ [Events](#events)
-	+ [Methods](#methods)
+      + [Properties](#properties)
+      + [Events](#events)
+      + [Methods](#methods)
 - [Runtime Tools](#runtime-tools)
-	+ [Example Usage](#example-usage-1)
-- [Runtime Undo](#runtime-undo)
-	+ [Example Usage](#example-usage-2)
+      + [Example Usage](#example-usage)
+- [Runtime Undo](#runtime-undo-1)
+      + [Example Usage](#example-usage-1)
+      + [Mobile Scene (Touch Support)](#mobile-scene-touch-support)
+      + [Demo Editor](#demo-editor)
+- [Support](#support)
+
+<!-- TOC end -->
 
 # Introduction
 **Runtime Transform Handles** are the runtime 3D controls used to manipulate GameObjects in the scene. 
